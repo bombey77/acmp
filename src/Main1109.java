@@ -3,6 +3,21 @@ import java.util.Scanner;
 
 public class Main1109 {
 
+//    Следующее и предыдущее
+//    (Время: 1 сек. Память: 16 Мб Сложность: 4%)
+//    Напишите программу, которая считывает целое число и выводит текст с упоминанием следующего и предыдущего для него чисел.
+//
+//    Входные данные
+//    Входной файл INPUT.TXT содержит целое число, не превосходящее 1000 по абсолютной величине.
+//
+//    Выходные данные
+//    В выходной файл OUTPUT.TXT выведите текст, аналогичный приведенному в примере. При выводе следует учесть все пробелы и знаки препинания.
+//
+//            Пример
+//    №	INPUT.TXT	OUTPUT.TXT
+//    1	13          The next number for the number 13 is 14.
+//                  The previous number for the number 13 is 12.
+
     public void run() {
         try (Scanner scanner = new Scanner(System.in);
              PrintWriter printWriter = new PrintWriter(System.out)) {
